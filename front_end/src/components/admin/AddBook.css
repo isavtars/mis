@@ -1,0 +1,54 @@
+input{
+
+    padding: 10px 50px;
+    margin: 9px 0px;
+    font-size: 16px;
+}
+
+.formdiv{
+
+   
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(87, 110, 99);
+    height: 88vh;
+}
+form {
+
+   
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    padding:1px 65px;
+}
+
+input[type="submit"]{
+
+    background-color: rgb(3, 202, 106);
+    padding: 15px 80px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+label{
+
+  color: rgb(229, 233, 229);
+  font-weight: 900;
+  font-size: 1.3em;
+  justify-content: flex-start;
+}
+
+
+input[type="file"]{ 
+
+    background-color: blanchedalmond;
+ } 

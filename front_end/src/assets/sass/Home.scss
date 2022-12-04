@@ -1,0 +1,68 @@
+$main-color: #f57224;
+$text-color: #999;
+$bg-color: #fff;
+$input-bg: rgb(243, 237, 248);
+
+section{
+
+    background-color: $input-bg;
+  
+  
+
+    .homecontainer{
+        max-width:1200px ;
+        margin:auto;
+        padding: 10px;
+        
+    }
+    .Book{
+        color: $text-color;
+    }
+
+
+    .productcontainner{
+        padding: 10px 0;
+        display: flex;
+        cursor: pointer;
+        justify-content: center;
+        flex-wrap: wrap;
+
+     
+    }
+    .cartcont{
+        background-color: $bg-color;
+        padding: 10px;
+        width:230px;
+        margin:6px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+
+
+
+        &:hover{
+           box-shadow: rgb(190, 186, 186) 2px 2px 12px;
+        }
+      
+       
+
+    }
+    .imagecart{
+        background-color: rgb(241, 246, 244);
+        height: 80%;
+        width: 100%;
+        object-fit: cover;
+        img{
+            width:100%;
+            height: 100%;
+        }
+    }
+
+    .price{
+        padding: 10px 0;
+        color:$main-color;
+    }
+ 
+}

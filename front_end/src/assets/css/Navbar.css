@@ -1,0 +1,57 @@
+.navcont {
+  background-color: #fff;
+  height: 13vh;
+  width: 100vw;
+}
+.navcont .logo {
+  flex: 1;
+}
+.navcont .logo a {
+  text-decoration: none;
+  color: #f57224;
+  font-size: 1.6rem;
+}
+.navcont nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 100%;
+}
+.navcont .search {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  flex: 4;
+  background-color: rgb(243, 237, 248);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+.navcont .search input {
+  outline: none;
+  border: none;
+  width: 90%;
+  background-color: rgb(243, 237, 248);
+}
+.navcont .search .icon {
+  background-color: #f57224;
+  height: 100%;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.navcont .addtocart {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.navcont .advetrise {
+  flex: 1;
+}

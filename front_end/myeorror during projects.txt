@@ -1,0 +1,18 @@
+       
+
+   ``````````````````````````````````````error1````````````````````````````````````````
+//include extensation of file .js in express Routing
+import * from "./demo.js"  // Works fine
+import * from "./demo" // Will throw error as you see
+
+import bookRouter from "./route/bookRoute";
+clg err========> Error [ERR_MODULE_NOT_FOUND]: Cannot find module
+
+
+
+error type>         fetching api error
+error name=>        Argument passed in must be a string of 12 bytes or a string of 24 hex chara
+error solutions=>   const { id } = useParams(); 
+                    const idx=id.toString();
+                    const response=await api.patch(`/book/update/${idx}`, updatedate,
+

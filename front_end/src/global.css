@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@1,300&display=swap');
+
+/* 
+nav{
+    background-color: rgb(49, 51, 57);
+    height:12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+  padding:0px 0px;
+cursor: pointer;
+position: sticky;
+top:0;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+   list-style: none;
+   padding: 10px;
+   cursor: pointer;
+   margin-right: 10px;
+}
+
+.logo a{
+    margin-left: 10px;
+    color: rgb(223, 130, 15);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+ul li a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+font-size: 1.2rem;
+color: #fff;
+}
+
+.active_class{
+    color: aquamarine;
+}
+
+
+
+
+.pagenotfound,.heroimgdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(87, 110, 99);
+    height: 88vh;
+}
+
+.page404,.heoimages{
+
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    box-shadow: 4px 4px 10px -1px rgb(78, 75, 75);
+    border-radius: 20px;
+
+} */
+
+/* //////////////////////dasbboard/////////////////////////////////////// */
+
+/* .bookdiv{
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: rgb(230, 228, 228);
+padding:8px 50px;
+margin:6px 0;
+background-color: rgb(113, 154, 132);
+box-shadow: 4px 4px 10px -1px rgb(78, 75, 75);
+}
+
+.booklist{
+
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  
+}
+
+.booklistcont{
+    margin-bottom: 0;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+}
+
+.name{
+    color: #fff;
+    flex: 6;
+}
+
+.index{
+    color: rgb(224, 159, 8);
+    flex:1;
+}
+.ddashboard{
+    background-color: rgb(87, 110, 99);
+    min-height: 100vh;
+
+}
+
+.deleicon{
+    cursor: pointer;
+    flex:1;
+}
+
+.smallimg{
+    height: 50px;
+    object-fit: contain;
+    flex:3;
+    cursor: pointer;
+} */

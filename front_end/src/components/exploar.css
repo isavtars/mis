@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@1,300&display=swap');
+
+.exploardiv{
+
+   
+    
+    background-color: rgb(87, 110, 99);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 88vh;
+}
+
+.expoimg{
+    height: 300px;
+    object-fit: contain;
+    box-shadow: 2px 2px 20px -6px #000;
+    background-color: rgb(94, 133, 114);
+    border-radius: 4px;
+}
+
+h3{
+    color:#fff;
+    padding-left: 20px;
+}
+
+
+table,td,th{
+    /* border: 1px  solid #fff; */
+}
+
+table{
+    width: 100vw;
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 28px;
+   text-align: center;
+    
+}
+
+th{
+    padding: 20px;
+    color:#fff;
+}
+
+td{
+    color:#e2e2e2;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+
+}
+
+
+.expolarbook{
+    background-color: rgb(87, 110, 99);
+    box-shadow: 2px 2px 20px -6px #000;
+}

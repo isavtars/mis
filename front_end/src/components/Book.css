@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.allbook{
+    background-color: rgb(87, 110, 99);
+    min-height:  100vh;
+
+}
+.cart{
+   
+    /* width: 250px; */
+    display: flex;
+   /* flex-direction: row; */
+   flex-wrap: wrap;
+   /* margin-top: 10px; */
+   justify-content: center;
+   align-items: center;
+  
+
+}
+
+img{
+    height: 200px;
+    object-fit: contain;
+}
+
+h1{
+    color: rgb(244, 159, 11);
+}
+
+.cartCoint{
+    background-color: rgb(109, 133, 122);
+    margin-left: 2px;
+    margin: 10px 5px;
+    box-shadow: 2px 2px 20px #000;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+height: 250px;
+cursor: pointer;
+}
+/* 
+.search{
+    background-color: rgb(87, 110, 99);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    width: 100%;
+} */
+/* 
+.inputbook{
+    outline: none;
+    border-radius: 8px;
+   width: 40%;
+   height: 29px; 
+    caret-color: rgb(142, 99, 99);
+} */
+/* 
+.searchicon{
+    color: aquamarine;
+   
+} */
